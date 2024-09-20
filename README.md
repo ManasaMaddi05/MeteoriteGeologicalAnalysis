@@ -62,7 +62,7 @@ To further investigate potential trends in meteorite masses by decade, we incorp
 For each decade, we assessed whether the median mass was unexpectedly high or low compared to random samples drawn from the entire period.
 
 ## 📂 Project Structure
-Code Implementation: The project is implemented using Python with key packages like pandas, numpy, matplotlib, folium, and scipy.stats. babypandas was used to simplify certain DataFrame manipulations.
+Code Implementation: The project is implemented using Python with key packages like **pandas, numpy, matplotlib, folium, and scipy.stats.** babypandas was used to simplify certain DataFrame manipulations.
 Visualizations: Various plots, including histograms, line plots, and geographical maps, were created to visualize the meteorite data and results from hypothesis tests.
 Statistical Techniques: Hypothesis testing, permutation tests, bootstrapping, and confidence interval calculations are key methods used to explore the data and test assumptions.
 
