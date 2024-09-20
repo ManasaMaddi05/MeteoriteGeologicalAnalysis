@@ -1,11 +1,11 @@
 # 🌍 Meteorite Data Analysis Project 🌠
 
-📚 Overview
+##📚 Overview
 This project analyzes a dataset of meteorite landings to explore various patterns and distributions. The dataset, obtained from NASA's Open Data Portal, contains information about all known meteorite landings, including their masses, locations, and whether they were seen falling or found after impact.
 
 This project is split into multiple sections, each examining different aspects of the meteorite data, such as the geographical distribution of meteorite landings, hypothesis tests to check if observed trends are significant, and the creation of confidence intervals for meteorite masses. The key tools used for analysis include hypothesis testing, permutation tests, bootstrapping, and interactive visualization of the data.
 
-##🗂 Dataset Description
+## 🗂 Dataset Description
 The dataset includes 38,094 rows and 9 columns, with each row representing a meteorite. The columns are as follows:
 
 id: Unique identifier for each meteorite.
@@ -20,7 +20,7 @@ longitude: Longitude of the location where the meteorite was found.
 🗺 Additional Dataset:
 Continents Data: Provides a mapping between meteorite IDs and the continents where they were found.
 
-##🔍 Key Analyses
+## 🔍 Key Analyses
 
 ###1. 🌍 Geographical Distribution of Meteorites
 The dataset contains precise latitude and longitude coordinates for each meteorite, which were mapped to their respective continents. Visualizations were created to map meteorite locations and to compare where meteorites were seen falling vs. where they were found after the fall.
