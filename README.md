@@ -43,7 +43,7 @@ Null Hypothesis: The masses of meteorites seen falling in Asia and North America
 Alternative Hypothesis: The median mass of meteorites in Asia is higher than in North America.
 After performing 1,000 simulations, we observed that the difference in medians could be due to chance. The permutation test was optimized using a faster permutation method to handle large datasets efficiently.
 
-###5. 📊 Confidence Intervals for Meteorite Masses
+### 5. 📊 Confidence Intervals for Meteorite Masses
 We used bootstrapping to estimate confidence intervals for the true median mass of meteorites seen falling in each continent. Bootstrapping allowed us to create a large number of resamples and compute medians for each, ultimately constructing a 95% confidence interval for the median.
 
 Additionally, we constructed confidence intervals for the mean mass of meteorites in each continent using the Central Limit Theorem (CLT). We used normal approximation to calculate these intervals, leveraging the properties of large sample sizes.
@@ -61,10 +61,10 @@ We performed 1,000 simulations by randomly selecting meteorites from the entire 
 To further investigate potential trends in meteorite masses by decade, we incorporated interactive visualizations that allowed us to test the hypothesis for different decades dynamically.
 For each decade, we assessed whether the median mass was unexpectedly high or low compared to random samples drawn from the entire period.
 
-##📂 Project Structure
+## 📂 Project Structure
 Code Implementation: The project is implemented using Python with key packages like pandas, numpy, matplotlib, folium, and scipy.stats. babypandas was used to simplify certain DataFrame manipulations.
 Visualizations: Various plots, including histograms, line plots, and geographical maps, were created to visualize the meteorite data and results from hypothesis tests.
 Statistical Techniques: Hypothesis testing, permutation tests, bootstrapping, and confidence interval calculations are key methods used to explore the data and test assumptions.
 
-##🎯 Conclusion
+## 🎯 Conclusion
 This project comprehensively analyzed a large dataset of meteorite landings, explored trends in their geographical and temporal distributions, and used various statistical methods to test hypotheses about the data. The results provide insights into the potential factors that affect meteorite sightings and the characteristics of the meteorites themselves.
